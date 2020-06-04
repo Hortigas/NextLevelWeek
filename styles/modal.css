@@ -1,0 +1,96 @@
+#modal {
+    background-color: #0e0a14ef;
+
+    height: 100vh;
+    width: 100vw;
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 400ms;
+}
+
+#modal .content {
+    color: white;
+    font: bold;
+    width: 600px;
+
+    border: 50px;
+    border-radius: 32px;
+
+    background-color: #00000040;
+    padding: 50px;
+}
+
+#modal .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 48px;
+}
+
+#modal .header a {
+    background-image: url(../assets/x.svg);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    font-size: 0.01px;
+}
+
+#modal .header h1 {
+    color: white;
+
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#modal form label {
+    font-size: 14px;
+    line-height: 16px;
+
+    display: block;
+    margin-bottom: 8px;
+}
+
+#modal form .field {
+    display: flex;
+}
+
+#modal form input {
+    flex: 1;
+
+    background-color: #f0f0f5;
+
+    border-radius: 8px 0 0 8px;
+    border: none;
+
+    padding-left: 20px;
+
+    font-size: 20px;
+    color: #6c6c80;
+}
+
+#modal form button {
+    width: 72px;
+    height: 72px;
+
+    background-color: var(--primary-color);
+
+    border-radius: 0 8px 8px 0;
+    border: none;
+
+    transition: background-color 200ms;
+}
+
+#modal form button:hover {
+    background-color: #1d854e;
+}
+
+#modal.hide {
+    display: none;
+}
