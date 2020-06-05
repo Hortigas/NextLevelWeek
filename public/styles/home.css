@@ -16,19 +16,6 @@
     flex-direction: column;
 }
 
-#page-home header {
-    margin-top: 48px;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-#page-home header a {
-    display: flex;
-
-    color: var(--title-color);
-    font-weight: 700;
-}
 #page-home header a span {
     margin-right: 16px;
     display: flex;

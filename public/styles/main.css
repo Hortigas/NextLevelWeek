@@ -33,3 +33,18 @@ h6 {
     font-family: Ubuntu, sans-serif;
     color: var(--title-color);
 }
+
+header {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: var (--title-color);
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+}

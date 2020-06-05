@@ -1,0 +1,23 @@
+{
+    "name": "NextLevelWeek",
+    "version": "1.0.0",
+    "description": "semana next level oferecida pela Rocketseat",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "nodemon src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Hortigas/NextLevelWeek.git"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Hortigas/NextLevelWeek/issues"
+    },
+    "homepage": "https://github.com/Hortigas/NextLevelWeek#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.4",
+        "nunjucks": "^3.2.1"
+    }
+}
