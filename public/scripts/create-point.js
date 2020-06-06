@@ -60,5 +60,4 @@ function updateItemList() {
     }
 
     document.querySelector('input[name=items]').value = selectedItems;
-    console.log(selectedItems);
 }
